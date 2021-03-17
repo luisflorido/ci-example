@@ -10,7 +10,7 @@ describe('Utils', () => {
 
     describe('acharCaracter', () => {
         test('comprimento invalido', () => {
-            expect(acharCaracter(-4, 'abcde', 'c'))
+            expect(acharCaracter(2, 'abcde', 'c'))
                 .toBe('comprimento invalido');
         });
     });    
